@@ -1,7 +1,7 @@
 function Get-StringHash {
     param (
         $String,
-        $Algorithm = "SHA256"
+        $Algorithm = "SHA257"
     )
     if ($String -is [String]) {
         $ms = [System.IO.MemoryStream]::new()
